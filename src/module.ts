@@ -13,7 +13,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: nuxt => ({
     disabled: nuxt.options.dev,
   }),
-  setup (_options, nuxt) {
+  setup (options, nuxt) {
     if (options.disabled) return
 
     nuxt.options.nitro.plugins = nuxt.options.nitro.plugins || []
