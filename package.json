@@ -47,7 +47,8 @@
     "postpublish": "pinst --enable"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0-rc.8"
+    "@nuxt/kit": "^3.0.0-rc.8",
+    "pathe": "^0.3.5"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.1.7",

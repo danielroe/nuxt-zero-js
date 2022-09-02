@@ -1,5 +1,6 @@
 import { fileURLToPath } from 'node:url'
 import { defineNuxtModule } from '@nuxt/kit'
+import { join } from 'pathe'
 
 export interface ModuleOptions {
   disabled: boolean
@@ -16,9 +17,11 @@ export default defineNuxtModule<ModuleOptions>({
   setup (options, nuxt) {
     if (options.disabled) return
 
-    nuxt.options.nitro.plugins = nuxt.options.nitro.plugins || []
-    nuxt.options.nitro.plugins.push(
-      fileURLToPath(new URL('./runtime/nitro-plugin', import.meta.url))
-    )
+    const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+
+    nuxt.hook('nitro:config', config => {
+      config.plugins!.push(fileURLToPath(join(runtimeDir, 'nitro-plugin')))
+      config.externals!.inline!.push(runtimeDir)
+    })
   },
 })
