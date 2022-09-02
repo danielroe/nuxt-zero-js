@@ -21,7 +21,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.hook('nitro:config', config => {
       config.plugins = config.plugins || []
-      config.plugins.push(fileURLToPath(join(runtimeDir, 'nitro-plugin')))
+      config.plugins.push(join(runtimeDir, 'nitro-plugin'))
       config.externals = config.externals || {}
       config.externals.inline = config.externals.inline || []
       config.externals.inline.push(runtimeDir)
