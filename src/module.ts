@@ -20,8 +20,11 @@ export default defineNuxtModule<ModuleOptions>({
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
 
     nuxt.hook('nitro:config', config => {
-      config.plugins!.push(fileURLToPath(join(runtimeDir, 'nitro-plugin')))
-      config.externals!.inline!.push(runtimeDir)
+      config.plugins = config.plugins || []
+      config.plugins.push(fileURLToPath(join(runtimeDir, 'nitro-plugin')))
+      config.externals = config.externals || {}
+      config.externals.inline = config.externals.inline || []
+      config.externals.inline.push(runtimeDir)
     })
   },
 })
