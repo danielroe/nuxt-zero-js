@@ -20,6 +20,22 @@
 
 Follow [this issue](https://github.com/nuxt/framework/issues/7156) for more information, and do comment if you'd like to see this feature in Nuxt itself.
 
+## Usage
+
+```js
+export default defineNuxtConfig({
+  modules: ['nuxt-zero-js'],
+  //
+  // By default the module is disabled in development for better
+  // DX but you can force it to be enabled if you would like.
+  //
+  // zeroJs: {
+  //   enabled: true,
+  // },
+```
+
+That's it!
+
 ## 💻 Development
 
 - Clone this repository
