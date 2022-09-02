@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-zero-js-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.8",
+    "nuxt-zero-js": "latest"
+  }
+}
