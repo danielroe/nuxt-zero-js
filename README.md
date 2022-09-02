@@ -5,7 +5,7 @@
 [![Github Actions][github-actions-src]][github-actions-href]
 [![Codecov][codecov-src]][codecov-href]
 
-> Remove all client-side JS from [Nuxt 3](https://v3.nuxtjs.org) app
+> Remove all client-side JS from your [Nuxt 3](https://v3.nuxtjs.org) app
 
 - [✨ &nbsp;Changelog](https://github.com/danielroe/nuxt-zero-js/blob/main/CHANGELOG.md)
 - [▶️ &nbsp;Online playground](https://stackblitz.com/github/danielroe/nuxt-zero-js/tree/main/playground)
