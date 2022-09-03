@@ -11,11 +11,11 @@ describe('nuxt zero-js', async () => {
     const html = await $fetch('/')
     expect(html.replace(/\.[^.]+\.css/g, '.css').replace(/ data-v-[^>]*/g, ''))
       .toMatchInlineSnapshot(`
-      "<!DOCTYPE html>
-      <html data-head-attrs=\\"\\">
-      <head><title></title><meta charset=\\"utf-8\\"><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\"><meta name=\\"head:count\\" content=\\"2\\"><link rel=\\"preload\\" as=\\"style\\" href=\\"/_nuxt/entry.css\\"><link rel=\\"stylesheet\\" href=\\"/_nuxt/entry.css\\"></head>
-      <body data-head-attrs=\\"\\"><div id=\\"__nuxt\\"><div>This page needs no JavaScript (of course!)!</div></div></body>
-      </html>"
-    `)
+        "<!DOCTYPE html>
+        <html >
+        <head><title></title><meta charset=\\"utf-8\\"><meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\"><link rel=\\"preload\\" as=\\"style\\" href=\\"/_nuxt/entry.css\\"><link rel=\\"stylesheet\\" href=\\"/_nuxt/entry.css\\"></head>
+        <body ><div id=\\"__nuxt\\"><div>This page needs no JavaScript (of course!)!</div></div></body>
+        </html>"
+      `)
   })
 })
