@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   // DX but you can force it to be enabled if you would like.
   //
   // zeroJs: {
-  //   enabled: true,
+  //   disabled: false,
   // },
 ```
 
