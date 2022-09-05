@@ -19,17 +19,8 @@ export default <NitroAppPlugin> function (nitroApp) {
     // clean up useHead artifacts
     htmlContext.htmlAttrs = htmlContext.htmlAttrs.filter(a => !a.includes('data-head-attrs'))
     htmlContext.bodyAttrs = htmlContext.bodyAttrs.filter(a => !a.includes('data-head-attrs'))
-    for (const k in htmlContext.head) {
-      // remove preload of api, i.e from nuxt/content
-      htmlContext.head[k] = htmlContext.head[k].replace(
-        /<link[^>]+rel="prefetch"[^>]+href="\/api\/[^"]*"[^>]*>/g,
-        ''
-      )
-      // remove head:count meta from @vueuse/head
-      htmlContext.head[k] = htmlContext.head[k].replace(
-        /<meta[^>]+name="head:count"[^>]+content="[^>]*"[^>]*>/g,
-        ''
-      )
-    }
+    htmlContext.head = htmlContext.head
+      .map(k => k.replace(/<meta[^>]+name="head:count"[^>]+content="[^>]*"[^>]*>/g, ''))
+      .filter(Boolean)
   })
 }
