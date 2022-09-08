@@ -69,7 +69,7 @@
     "pinst": "^3.0.0",
     "prettier": "^2.7.1",
     "release-it": "^15.4.1",
-    "typescript": "^4.8.2",
+    "typescript": "^4.8.3",
     "vitest": "^0.23.1",
     "vue": "^3.2.39"
   },
