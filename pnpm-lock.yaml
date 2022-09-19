@@ -23,7 +23,7 @@ importers:
       husky: ^8.0.1
       lint-staged: ^13.0.3
       nuxt: npm:nuxt3@3.0.0-rc.9-27703329.537338f
-      pathe: ^0.3.7
+      pathe: ^0.3.8
       pinst: ^3.0.0
       prettier: ^2.7.1
       release-it: ^15.4.2
@@ -32,7 +32,7 @@ importers:
       vue: ^3.2.39
     dependencies:
       '@nuxt/kit': 3.0.0-rc.10
-      pathe: 0.3.7
+      pathe: 0.3.8
     devDependencies:
       '@nuxt/module-builder': 0.1.7
       '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.9-27703329.537338f
@@ -261,14 +261,6 @@ packages:
       '@babel/helper-validator-identifier': 7.18.6
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  /@babel/parser/7.18.13:
-    resolution: {integrity: sha512-dgXcIfMuQ0kgzLB2b9tRZs7TTFFaGM2AbtA4fJgUUYukzGH4jwsS7hzQHEGs67jdehpm22vkgKwvbU+aEflgwg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.19.0
-    dev: true
 
   /@babel/parser/7.19.1:
     resolution: {integrity: sha512-h7RCSorm1DdTVGJf3P2Mhj3kdnkmF/EiysUkzS2TdgAYqyjFdMQJbVuXOBej2SBJaXan/lIVtT6KkGbyyq753A==}
@@ -545,7 +537,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -575,7 +567,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -605,7 +597,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -634,7 +626,7 @@ packages:
       knitwork: 0.1.2
       lodash.template: 4.5.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       scule: 0.3.2
       semver: 7.3.7
@@ -670,7 +662,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.0
       jiti: 1.15.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
       std-env: 3.2.1
@@ -691,7 +683,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.0
       jiti: 1.15.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
       std-env: 3.2.1
@@ -712,7 +704,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.0
       jiti: 1.15.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
@@ -733,7 +725,7 @@ packages:
       create-require: 1.1.1
       defu: 6.1.0
       jiti: 1.15.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       postcss-import-resolver: 2.0.0
       scule: 0.3.2
@@ -831,7 +823,7 @@ packages:
       magic-string: 0.26.3
       mlly: 0.5.14
       ohash: 0.1.5
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       pkg-types: 0.3.5
       postcss: 8.4.16
@@ -884,7 +876,7 @@ packages:
       magic-string: 0.26.3
       mlly: 0.5.14
       ohash: 0.1.5
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       pkg-types: 0.3.5
       postcss: 8.4.16
@@ -1649,7 +1641,7 @@ packages:
   /@vue/compiler-core/3.2.39:
     resolution: {integrity: sha512-mf/36OWXqWn0wsC40nwRRGheR/qoID+lZXbIuLnr4/AngM0ov8Xvv8GHunC0rKRIkh60bTqydlqTeBo49rlbqw==}
     dependencies:
-      '@babel/parser': 7.18.13
+      '@babel/parser': 7.19.1
       '@vue/shared': 3.2.39
       estree-walker: 2.0.2
       source-map: 0.6.1
@@ -1665,7 +1657,7 @@ packages:
   /@vue/compiler-sfc/3.2.39:
     resolution: {integrity: sha512-fqAQgFs1/BxTUZkd0Vakn3teKUt//J3c420BgnYgEOoVdTwYpBTSXCMJ88GOBCylmUBbtquGPli9tVs7LzsWIA==}
     dependencies:
-      '@babel/parser': 7.18.13
+      '@babel/parser': 7.19.1
       '@vue/compiler-core': 3.2.39
       '@vue/compiler-dom': 3.2.39
       '@vue/compiler-ssr': 3.2.39
@@ -2146,7 +2138,7 @@ packages:
       gittar: 0.1.1
       jiti: 1.15.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       rc9: 1.2.2
 
@@ -4125,7 +4117,7 @@ packages:
     dependencies:
       enhanced-resolve: 5.10.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       ufo: 0.8.5
     dev: true
 
@@ -5809,7 +5801,7 @@ packages:
     resolution: {integrity: sha512-DgRgNUSX9NIxxCxygX4Xeg9C7GX7OUx1wuQ8cXx9o9LE0e9wrH+OZ9fcnrlEedsC/rtqry3ZhUddC759XD/L0w==}
     dependencies:
       acorn: 8.8.0
-      pathe: 0.3.7
+      pathe: 0.3.8
       pkg-types: 0.3.5
       ufo: 0.8.5
 
@@ -5915,7 +5907,7 @@ packages:
       node-fetch-native: 0.1.4
       ohash: 0.1.5
       ohmyfetch: 0.4.18
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       pkg-types: 0.3.5
       pretty-bytes: 6.0.0
@@ -5988,7 +5980,7 @@ packages:
       node-fetch-native: 0.1.4
       ohash: 0.1.5
       ohmyfetch: 0.4.18
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       pkg-types: 0.3.5
       pretty-bytes: 6.0.0
@@ -6176,7 +6168,7 @@ packages:
       nuxi: 3.0.0-rc.10
       ohash: 0.1.5
       ohmyfetch: 0.4.18
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       scule: 0.3.2
       strip-literal: 0.4.1
@@ -6241,7 +6233,7 @@ packages:
       nuxi: /nuxi-edge/3.0.0-rc.9-27703329.537338f
       ohash: 0.1.5
       ohmyfetch: 0.4.18
-      pathe: 0.3.7
+      pathe: 0.3.8
       perfect-debounce: 0.1.3
       scule: 0.3.2
       strip-literal: 0.4.1
@@ -6603,8 +6595,8 @@ packages:
     resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
     dev: true
 
-  /pathe/0.3.7:
-    resolution: {integrity: sha512-yz7GK+kSsS27x727jtXpd5VT4dDfP/JDIQmaowfxyWCnFjOWtE1VIh7i6TzcSfzW0n4+bRQztj1VdKnITNq/MA==}
+  /pathe/0.3.8:
+    resolution: {integrity: sha512-c71n61F1skhj/jzZe+fWE9XDoTYjWbUwIKVwFftZ5IOgiX44BVkTkD+/803YDgR50tqeO4eXWxLyVHBLWQAD1g==}
 
   /pathval/1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
@@ -6648,7 +6640,7 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
     dev: true
 
   /pkg-types/0.3.5:
@@ -6656,7 +6648,7 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
 
   /pluralize/8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
@@ -8307,7 +8299,7 @@ packages:
       defu: 6.1.0
       mime: 3.0.0
       node-fetch-native: 0.1.4
-      pathe: 0.3.7
+      pathe: 0.3.8
     dev: true
 
   /unimport/0.6.7:
@@ -8319,7 +8311,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.26.3
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       scule: 0.3.2
       strip-literal: 0.4.1
       unplugin: 0.9.5
@@ -8338,7 +8330,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.26.3
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       scule: 0.3.2
       strip-literal: 0.4.1
       unplugin: 0.9.5_4dwlpq3uo3pzstj2gqitvdgyci
@@ -8358,7 +8350,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.26.3
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       scule: 0.3.2
       strip-literal: 0.4.1
       unplugin: 0.9.5_bjmqfvitzn3prp6q33xiihmtom
@@ -8378,7 +8370,7 @@ packages:
       local-pkg: 0.4.2
       magic-string: 0.26.3
       mlly: 0.5.14
-      pathe: 0.3.7
+      pathe: 0.3.8
       scule: 0.3.2
       strip-literal: 0.4.1
       unplugin: 0.9.5_uu2p2v3owefbwsafzxfcsbbrxa
