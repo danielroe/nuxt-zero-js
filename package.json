@@ -68,7 +68,7 @@
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27703329.537338f",
     "pinst": "^3.0.0",
     "prettier": "^2.7.1",
-    "release-it": "^15.4.2",
+    "release-it": "^15.5.0",
     "typescript": "^4.8.4",
     "vitest": "^0.23.4",
     "vue": "^3.2.40"
@@ -76,7 +76,7 @@
   "resolutions": {
     "nuxt-zero-js": "link:."
   },
-  "packageManager": "pnpm@7.12.2",
+  "packageManager": "pnpm@7.13.0",
   "volta": {
     "node": "16.17.1"
   }
