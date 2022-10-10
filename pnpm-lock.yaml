@@ -59,10 +59,10 @@ importers:
   playground:
     specifiers:
       nuxt: ^3.0.0-rc.11
-      nuxt-zero-js: link:.
+      nuxt-zero-js: link:..
     devDependencies:
       nuxt: 3.0.0-rc.11
-      nuxt-zero-js: 'link:'
+      nuxt-zero-js: link:..
 
 packages:
 
