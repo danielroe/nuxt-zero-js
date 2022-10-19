@@ -57,7 +57,7 @@
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "@types/node": "^18.7.14",
-    "@vitest/coverage-c8": "^0.24.1",
+    "@vitest/coverage-c8": "^0.24.3",
     "c8": "^7.12.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.25.0",
@@ -70,14 +70,14 @@
     "prettier": "^2.7.1",
     "release-it": "^15.5.0",
     "typescript": "^4.8.4",
-    "vitest": "^0.24.1",
-    "vue": "^3.2.40"
+    "vitest": "^0.24.3",
+    "vue": "^3.2.41"
   },
   "resolutions": {
     "nuxt-zero-js": "link:."
   },
-  "packageManager": "pnpm@7.13.4",
+  "packageManager": "pnpm@7.13.5",
   "volta": {
-    "node": "16.17.1"
+    "node": "16.18.0"
   }
 }
