@@ -17,9 +17,9 @@ importers:
       '@vitest/coverage-c8': ^0.25.5
       c8: ^7.12.0
       conventional-changelog-conventionalcommits: ^5.0.0
-      eslint: ^8.29.0
-      eslint-config-prettier: ^8.5.0
-      eslint-plugin-prettier: ^4.2.1
+      eslint: 8.29.0
+      eslint-config-prettier: 8.5.0
+      eslint-plugin-prettier: 4.2.1
       husky: ^8.0.2
       lint-staged: ^13.1.0
       nuxt: npm:nuxt3@3.0.0-rc.9-27703329.537338f
