@@ -21,7 +21,7 @@ importers:
       eslint-config-prettier: 8.6.0
       eslint-plugin-prettier: 4.2.1
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.2
       nuxt: npm:nuxt3@3.0.0-rc.9-27703329.537338f
       pathe: ^1.0.0
       pinst: 3.0.0
@@ -47,7 +47,7 @@ importers:
       eslint-config-prettier: 8.6.0_eslint@8.33.0
       eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
       husky: 8.0.3
-      lint-staged: 13.1.0
+      lint-staged: 13.1.2
       nuxt: /nuxt3/3.0.0-rc.9-27703329.537338f_4vsywjlpuriuw3tl5oq6zy5a64
       pinst: 3.0.0
       prettier: 2.8.3
@@ -5459,8 +5459,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/13.1.0:
-    resolution: {integrity: sha512-pn/sR8IrcF/T0vpWLilih8jmVouMlxqXxKuAojmbiGX5n/gDnz+abdPptlj0vYnbfE0SQNl3CY/HwtM0+yfOVQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -6332,8 +6332,8 @@ packages:
       '@nuxt/telemetry': 2.1.5
       '@nuxt/ui-templates': 0.3.3
       '@nuxt/vite-builder': /@nuxt/vite-builder-edge/3.0.0-rc.9-27703329.537338f_pyztoqq6jfcic4vzn3afnhhxoi
-      '@vue/reactivity': 3.2.45
-      '@vue/shared': 3.2.45
+      '@vue/reactivity': 3.2.47
+      '@vue/shared': 3.2.47
       '@vueuse/head': 0.7.12_vue@3.2.47
       chokidar: 3.5.3
       cookie-es: 0.5.0
