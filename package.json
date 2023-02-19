@@ -76,7 +76,7 @@
   "resolutions": {
     "nuxt-zero-js": "link:."
   },
-  "packageManager": "pnpm@7.27.0",
+  "packageManager": "pnpm@7.27.1",
   "volta": {
     "node": "18.14.1"
   }
