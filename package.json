@@ -67,7 +67,7 @@
     "lint-staged": "13.2.0",
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27703329.537338f",
     "pinst": "3.0.0",
-    "prettier": "2.8.6",
+    "prettier": "2.8.7",
     "release-it": "15.9.1",
     "typescript": "5.0.2",
     "vitest": "0.29.7",
