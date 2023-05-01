@@ -26,7 +26,7 @@ importers:
       pathe: ^1.0.0
       pinst: 3.0.0
       prettier: 2.8.8
-      release-it: 15.10.1
+      release-it: 15.10.2
       typescript: 5.0.4
       vitest: 0.30.1
       vue: 3.2.47
@@ -38,7 +38,7 @@ importers:
       '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.9-27703329.537338f
       '@nuxt/test-utils': 3.4.2_vitest@0.30.1+vue@3.2.47
       '@nuxtjs/eslint-config-typescript': 12.0.0_iacogk7kkaymxepzhgcbytyi7q
-      '@release-it/conventional-changelog': 5.1.1_release-it@15.10.1
+      '@release-it/conventional-changelog': 5.1.1_release-it@15.10.2
       '@types/node': 18.16.3
       '@vitest/coverage-c8': 0.30.1_vitest@0.30.1
       c8: 7.13.0
@@ -51,7 +51,7 @@ importers:
       nuxt: /nuxt3/3.0.0-rc.9-27703329.537338f_iacogk7kkaymxepzhgcbytyi7q
       pinst: 3.0.0
       prettier: 2.8.8
-      release-it: 15.10.1
+      release-it: 15.10.2
       typescript: 5.0.4
       vitest: 0.30.1
       vue: 3.2.47
@@ -1255,7 +1255,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog/5.1.1_release-it@15.10.1:
+  /@release-it/conventional-changelog/5.1.1_release-it@15.10.2:
     resolution: {integrity: sha512-QtbDBe36dQfzexAfDYrbLPvd5Cb5bMWmLcjcGhCOWBss7fe1/gCjoxDULVz+7N7G5Nu2UMeBwHcUp/w8RDh5VQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1264,7 +1264,7 @@ packages:
       concat-stream: 2.0.0
       conventional-changelog: 3.1.25
       conventional-recommended-bump: 6.1.0
-      release-it: 15.10.1
+      release-it: 15.10.2
       semver: 7.3.8
     dev: true
 
@@ -4931,17 +4931,6 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /globby/13.1.3:
-    resolution: {integrity: sha512-8krCNHXvlCgHDpegPzleMq07yMYTO2sXKASmZmquEYWEmCx6J5UTRbp5RwMJkTJGtcQ44YpiUYUiN0b9mzy8Bw==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dependencies:
-      dir-glob: 3.0.1
-      fast-glob: 3.2.12
-      ignore: 5.2.4
-      merge2: 1.4.1
-      slash: 4.0.0
-    dev: true
-
   /globby/13.1.4:
     resolution: {integrity: sha512-iui/IiiW+QrJ1X1hKH5qwlMQyv34wJAYwH1vrf8b9kBA4sNiif3gKsMHa+BrdnOpEudWjpotfa7LrTzB1ERS/g==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -5232,27 +5221,6 @@ packages:
   /ini/2.0.0:
     resolution: {integrity: sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==}
     engines: {node: '>=10'}
-    dev: true
-
-  /inquirer/9.1.5:
-    resolution: {integrity: sha512-3ygAIh8gcZavV9bj6MTdYddG2zPSYswP808fKS46NOwlF0zZljVpnLCHODDqItWJDbDpLb3aouAxGaJbkxoppA==}
-    engines: {node: '>=14.18.0'}
-    dependencies:
-      ansi-escapes: 6.2.0
-      chalk: 5.2.0
-      cli-cursor: 4.0.0
-      cli-width: 4.0.0
-      external-editor: 3.1.0
-      figures: 5.0.0
-      lodash: 4.17.21
-      mute-stream: 1.0.0
-      ora: 6.3.0
-      run-async: 2.4.1
-      rxjs: 7.8.1
-      string-width: 5.1.2
-      strip-ansi: 7.0.1
-      through: 2.3.8
-      wrap-ansi: 8.1.0
     dev: true
 
   /inquirer/9.2.0:
@@ -7853,8 +7821,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it/15.10.1:
-    resolution: {integrity: sha512-Wkk4aFHSo27vQwHIlcEy77lJwnQlh4UDQckc53gh5tKo7F22mAUEAe8SYQZJcFh7icdkf0OV70onhB1dDmeClA==}
+  /release-it/15.10.2:
+    resolution: {integrity: sha512-fm1MtEG6IFxMMmOhUzpw9FTx8k9Ln5iiM+bikjrg3oZ5JLJO1uR1yxloPqc4A2gIXUq+bQp8/g4wipOwgDmEcw==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
@@ -7865,9 +7833,9 @@ packages:
       cosmiconfig: 8.1.3
       execa: 7.1.1
       git-url-parse: 13.1.0
-      globby: 13.1.3
+      globby: 13.1.4
       got: 12.6.0
-      inquirer: 9.1.5
+      inquirer: 9.2.0
       is-ci: 3.0.1
       issue-parser: 6.0.0
       lodash: 4.17.21
@@ -7879,7 +7847,7 @@ packages:
       os-name: 5.1.0
       promise.allsettled: 1.0.6
       proxy-agent: 5.0.0
-      semver: 7.3.8
+      semver: 7.5.0
       shelljs: 0.8.5
       update-notifier: 6.0.2
       url-join: 5.0.0
