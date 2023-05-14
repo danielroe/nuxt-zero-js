@@ -71,7 +71,7 @@
     "release-it": "15.10.3",
     "typescript": "5.0.4",
     "vitest": "0.31.0",
-    "vue": "3.2.47"
+    "vue": "3.3.2"
   },
   "resolutions": {
     "nuxt-zero-js": "link:."
