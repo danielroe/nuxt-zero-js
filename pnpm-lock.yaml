@@ -26,7 +26,7 @@ importers:
       pathe: ^1.0.0
       pinst: 3.0.0
       prettier: 2.8.8
-      release-it: 15.10.5
+      release-it: 15.11.0
       typescript: 5.1.3
       vitest: 0.31.4
       vue: 3.3.4
@@ -38,7 +38,7 @@ importers:
       '@nuxt/schema': /@nuxt/schema-edge/3.0.0-rc.9-27703329.537338f
       '@nuxt/test-utils': 3.4.2_vitest@0.31.4+vue@3.3.4
       '@nuxtjs/eslint-config-typescript': 12.0.0_tizxnkcvjrb4cldxgwq5h3lj5u
-      '@release-it/conventional-changelog': 5.1.1_release-it@15.10.5
+      '@release-it/conventional-changelog': 5.1.1_release-it@15.11.0
       '@types/node': 18.16.16
       '@vitest/coverage-c8': 0.31.4_vitest@0.31.4
       c8: 7.14.0
@@ -51,7 +51,7 @@ importers:
       nuxt: /nuxt3/3.0.0-rc.9-27703329.537338f_tizxnkcvjrb4cldxgwq5h3lj5u
       pinst: 3.0.0
       prettier: 2.8.8
-      release-it: 15.10.5
+      release-it: 15.11.0
       typescript: 5.1.3
       vitest: 0.31.4
       vue: 3.3.4
@@ -1121,7 +1121,7 @@ packages:
       '@octokit/graphql': 5.0.5
       '@octokit/request': 6.2.3
       '@octokit/request-error': 3.0.3
-      '@octokit/types': 9.1.4
+      '@octokit/types': 9.2.3
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -1146,10 +1146,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/openapi-types/17.0.0:
-    resolution: {integrity: sha512-V8BVJGN0ZmMlURF55VFHFd/L92XQQ43KvFjNmY1IYbCN3V/h/uUFV6iQi19WEHM395Nn+1qhUbViCAD/1czzog==}
     dev: true
 
   /@octokit/openapi-types/17.2.0:
@@ -1225,12 +1221,6 @@ packages:
     resolution: {integrity: sha512-I0vDR0rdtP8p2lGMzvsJzbhdOWy405HcGovrspJ8RRibHnyRgggUSNO5AIox5LmqiwmatHKYsvj6VGFHkqS7lA==}
     dev: true
 
-  /@octokit/types/9.1.4:
-    resolution: {integrity: sha512-5d9vYHzC/yG9eyYBO2Pis4BM4tQfFcyFUWBquDgCzcmFG+sgBiRQ2JCY55HG/hdxvESt9IZUoRtzOm66Qv/GWw==}
-    dependencies:
-      '@octokit/openapi-types': 17.0.0
-    dev: true
-
   /@octokit/types/9.2.3:
     resolution: {integrity: sha512-MMeLdHyFIALioycq+LFcA71v0S2xpQUX2cw6pPbHQjaibcHYwLnmK/kMZaWuGfGfjBJZ3wRUq+dOaWsvrPJVvA==}
     dependencies:
@@ -1270,7 +1260,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog/5.1.1_release-it@15.10.5:
+  /@release-it/conventional-changelog/5.1.1_release-it@15.11.0:
     resolution: {integrity: sha512-QtbDBe36dQfzexAfDYrbLPvd5Cb5bMWmLcjcGhCOWBss7fe1/gCjoxDULVz+7N7G5Nu2UMeBwHcUp/w8RDh5VQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1279,7 +1269,7 @@ packages:
       concat-stream: 2.0.0
       conventional-changelog: 3.1.25
       conventional-recommended-bump: 6.1.0
-      release-it: 15.10.5
+      release-it: 15.11.0
       semver: 7.3.8
     dev: true
 
@@ -7960,8 +7950,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it/15.10.5:
-    resolution: {integrity: sha512-6AWkcOYsEfCzegtAKvXekUG+CLjlFXztDwGzxFOGa8VJRuXbPONfM8rvaPYJX1hTlL5+KC4MWOEoKKzWhQ65gA==}
+  /release-it/15.11.0:
+    resolution: {integrity: sha512-lZwoGEnKYKwGnfxxlA7vtR7vvozPrOSsIgQaHO4bgQ5ARbG3IA6Dmo0IVusv6nR1KmnjH70QIeNAgsWs6Ji/tw==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
