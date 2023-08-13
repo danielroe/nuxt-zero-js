@@ -64,7 +64,7 @@
     "eslint-config-prettier": "8.10.0",
     "eslint-plugin-prettier": "5.0.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.3",
+    "lint-staged": "14.0.0",
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27703329.537338f",
     "pinst": "3.0.0",
     "prettier": "3.0.1",
