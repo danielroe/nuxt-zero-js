@@ -68,7 +68,7 @@
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27703329.537338f",
     "pinst": "3.0.0",
     "prettier": "3.0.1",
-    "release-it": "16.1.4",
+    "release-it": "16.1.5",
     "typescript": "5.1.6",
     "vitest": "0.31.4",
     "vue": "3.3.4"
