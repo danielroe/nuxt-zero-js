@@ -32,7 +32,7 @@ importers:
         version: 12.1.0(eslint@8.56.0)(typescript@5.2.2)
       '@release-it/conventional-changelog':
         specifier: 7.0.2
-        version: 7.0.2(release-it@16.2.1)
+        version: 7.0.2(release-it@16.3.0)
       '@types/node':
         specifier: 18.19.15
         version: 18.19.15
@@ -70,8 +70,8 @@ importers:
         specifier: 3.2.5
         version: 3.2.5
       release-it:
-        specifier: 16.2.1
-        version: 16.2.1(typescript@5.2.2)
+        specifier: 16.3.0
+        version: 16.3.0(typescript@5.2.2)
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -1343,7 +1343,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog@7.0.2(release-it@16.2.1):
+  /@release-it/conventional-changelog@7.0.2(release-it@16.3.0):
     resolution: {integrity: sha512-rsUKWNnU39xivgC2IanjRkEOPsTu2X2jgJGpNHF+mndpOUr1WAROmIaix1o3ne2zseT+GLyZII2NC8FgYaM7xA==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -1352,7 +1352,7 @@ packages:
       concat-stream: 2.0.0
       conventional-changelog: 5.1.0
       conventional-recommended-bump: 8.0.0
-      release-it: 16.2.1(typescript@5.2.2)
+      release-it: 16.3.0(typescript@5.2.2)
       semver: 7.5.4
     dev: true
 
@@ -7769,8 +7769,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it@16.2.1(typescript@5.2.2):
-    resolution: {integrity: sha512-+bHiKPqkpld+NaiW+K/2WsjaHgfPB00J6uk8a+g8QyuBtzfFoMVe+GKsfaDO5ztEHRrSg+7luoXzd8IfvPNPig==}
+  /release-it@16.3.0(typescript@5.2.2):
+    resolution: {integrity: sha512-CP+WwKbgEvXreq6Iz9po3BtcyELtTxrt5RXRGnazQ0eCphPxFZR29+8sEZRCsJq2IKvlwb5mFUbf92u426oQog==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
