@@ -34,8 +34,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2(release-it@16.3.0)
       '@types/node':
-        specifier: 18.19.22
-        version: 18.19.22
+        specifier: 18.19.28
+        version: 18.19.28
       '@vitest/coverage-c8':
         specifier: 0.31.4
         version: 0.31.4(vitest@0.31.4)
@@ -145,7 +145,7 @@ packages:
       '@babel/parser': 7.24.0
       '@babel/template': 7.24.0
       '@babel/traverse': 7.24.0
-      '@babel/types': 7.23.0
+      '@babel/types': 7.24.0
       convert-source-map: 2.0.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -365,7 +365,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.24.0
     dev: true
 
   /@babel/parser@7.24.0:
@@ -892,7 +892,7 @@ packages:
       '@nuxt/schema': /@nuxt/schema-edge@3.0.0-rc.9-27703329.537338f
       c12: 0.2.13
       consola: 2.15.3
-      defu: 6.1.2
+      defu: 6.1.4
       globby: 13.2.2
       hash-sum: 2.0.0
       ignore: 5.3.1
@@ -970,11 +970,11 @@ packages:
       '@nuxt/schema': 3.7.4(rollup@2.79.1)
       c12: 1.10.0
       consola: 3.2.3
-      defu: 6.1.2
+      defu: 6.1.4
       globby: 13.2.2
       hash-sum: 2.0.0
       ignore: 5.3.1
-      jiti: 1.20.0
+      jiti: 1.21.0
       knitwork: 1.0.0
       mlly: 1.6.1
       pathe: 1.1.2
@@ -1059,7 +1059,7 @@ packages:
     dependencies:
       '@nuxt/ui-templates': 1.3.1
       consola: 3.2.3
-      defu: 6.1.2
+      defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
       pkg-types: 1.0.3
@@ -1154,9 +1154,9 @@ packages:
       '@vitejs/plugin-vue': 3.2.0(vite@3.0.9)(vue@3.3.4)
       '@vitejs/plugin-vue-jsx': 2.1.1(vite@3.0.9)(vue@3.3.4)
       autoprefixer: 10.4.18(postcss@8.4.35)
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       cssnano: 5.1.15(postcss@8.4.35)
-      defu: 6.1.2
+      defu: 6.1.4
       esbuild: 0.15.18
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
@@ -1696,17 +1696,11 @@ packages:
   /@types/node-forge@1.3.11:
     resolution: {integrity: sha512-FQx220y22OKNTqaByeBGqHWYz4cl94tpcxeFdvBo3wjG6XPBuZ0BNgNZRV5J5TFmmcsJ4IzsLkmGRiQbnYsBEQ==}
     dependencies:
-      '@types/node': 18.19.22
+      '@types/node': 18.19.28
     dev: true
 
-  /@types/node@18.19.22:
-    resolution: {integrity: sha512-p3pDIfuMg/aXBmhkyanPshdfJuX5c5+bQjYLIikPLXAUycEogij/c50n/C+8XOA5L93cU4ZRXtn+dNQGi0IZqQ==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
-  /@types/node@20.11.25:
-    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
+  /@types/node@18.19.28:
+    resolution: {integrity: sha512-J5cOGD9n4x3YGgVuaND6khm5x07MMdAKkRyXnjVR6KFhLMNh2yONGiP7Z+4+tBOt5mK+GvDTiacTOVGGpqiecw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1718,7 +1712,7 @@ packages:
   /@types/resolve@1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 20.11.25
+      '@types/node': 18.19.28
     dev: true
 
   /@types/semver@7.5.3:
@@ -2112,11 +2106,11 @@ packages:
   /@vue/reactivity-transform@3.3.4:
     resolution: {integrity: sha512-MXgwjako4nu5WFLAjpBnCj/ieqcjE2aJBINUNQzkZQfzIZA4xn+0fV1tIYBJvvva3N3OvKGofRLvQIwEQPpaXw==}
     dependencies:
-      '@babel/parser': 7.23.0
+      '@babel/parser': 7.24.0
       '@vue/compiler-core': 3.3.4
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
-      magic-string: 0.30.5
+      magic-string: 0.30.8
     dev: true
 
   /@vue/reactivity@3.3.4:
@@ -2666,7 +2660,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /bundle-name@3.0.0:
@@ -3195,7 +3189,7 @@ packages:
       handlebars: 4.7.8
       json-stringify-safe: 5.0.1
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.6.0
       split2: 4.2.0
     dev: true
 
@@ -5263,7 +5257,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /git-up@7.0.0:
@@ -6073,7 +6067,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.19.22
+      '@types/node': 18.19.28
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -6250,7 +6244,7 @@ packages:
     dependencies:
       clipboardy: 3.0.0
       colorette: 2.0.20
-      defu: 6.1.2
+      defu: 6.1.4
       get-port-please: 2.6.1
       http-shutdown: 1.2.2
       selfsigned: 2.4.1
@@ -6262,7 +6256,7 @@ packages:
     dependencies:
       clipboardy: 3.0.0
       colorette: 2.0.20
-      defu: 6.1.2
+      defu: 6.1.4
       get-port-please: 2.6.1
       http-shutdown: 1.2.2
       ip-regex: 5.0.0
@@ -6672,7 +6666,7 @@ packages:
       esbuild: 0.14.54
       fs-extra: 10.1.0
       globby: 11.1.0
-      jiti: 1.20.0
+      jiti: 1.21.0
       mri: 1.2.0
       pathe: 0.2.0
       typescript: 4.9.5
@@ -6783,10 +6777,10 @@ packages:
       archiver: 5.3.2
       c12: 0.2.13
       chalk: 5.3.0
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       consola: 2.15.3
       cookie-es: 0.5.0
-      defu: 6.1.2
+      defu: 6.1.4
       destr: 1.2.2
       dot-prop: 7.2.0
       esbuild: 0.15.18
@@ -6980,7 +6974,7 @@ packages:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.13.0
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -7464,7 +7458,7 @@ packages:
       got: 12.6.1
       registry-auth-token: 5.0.2
       registry-url: 6.0.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /parent-module@1.0.1:
@@ -8408,7 +8402,7 @@ packages:
   /rc9@2.1.1:
     resolution: {integrity: sha512-lNeOl38Ws0eNxpO3+wD1I9rkHGQyj1NU1jlzv4go2CtEnEQEUfqnIvZG7W+bC/aXdJ27n5x/yUjb6RoT9tko+Q==}
     dependencies:
-      defu: 6.1.2
+      defu: 6.1.4
       destr: 2.0.1
       flat: 5.0.2
     dev: true
@@ -8867,7 +8861,7 @@ packages:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
     engines: {node: '>=12'}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /semver@5.7.2:
@@ -8924,7 +8918,7 @@ packages:
   /serve-placeholder@2.0.1:
     resolution: {integrity: sha512-rUzLlXk4uPFnbEaIz3SW8VISTxMuONas88nYWjAWaM2W9VDbt9tyFOr3lq8RhVOFrT3XISoBw8vni5una8qMnQ==}
     dependencies:
-      defu: 6.1.2
+      defu: 6.1.4
     dev: true
 
   /serve-static@1.15.0:
@@ -9786,7 +9780,7 @@ packages:
     resolution: {integrity: sha512-TUm1ZyLkVamRfM+uWmWtavlzri3XS0ajYXKhlrAZ8aCChMwH29lufOfAP0bsMaBHuciIVfycaGgNhHeyLONpdA==}
     dependencies:
       anymatch: 3.1.3
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       destr: 1.2.2
       h3: 0.7.21
       ioredis: 5.3.2
@@ -9929,7 +9923,7 @@ packages:
       debug: 4.3.4
       mlly: 0.5.17
       pathe: 0.2.0
-      vite: 3.0.9
+      vite: 3.1.8
     transitivePeerDependencies:
       - less
       - sass
@@ -9955,7 +9949,7 @@ packages:
       - terser
     dev: true
 
-  /vite-node@0.31.4(@types/node@18.19.22):
+  /vite-node@0.31.4(@types/node@18.19.28):
     resolution: {integrity: sha512-uzL377GjJtTbuc5KQxVbDu2xfU/x0wVjUtXQR2ihS21q/NK6ROr4oG0rsSkBBddZUVCwzfx22in76/0ZZHXgkQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9965,7 +9959,7 @@ packages:
       mlly: 1.6.1
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 4.4.11(@types/node@18.19.22)
+      vite: 4.4.11(@types/node@18.19.28)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10011,7 +10005,7 @@ packages:
       '@babel/code-frame': 7.23.5
       ansi-escapes: 4.3.2
       chalk: 4.1.2
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       commander: 8.3.0
       eslint: 8.56.0
       fast-glob: 3.3.2
@@ -10063,7 +10057,7 @@ packages:
       '@babel/code-frame': 7.23.5
       ansi-escapes: 4.3.2
       chalk: 4.1.2
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       commander: 8.3.0
       eslint: 8.56.0
       fast-glob: 3.3.2
@@ -10128,14 +10122,14 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.15.18
-      postcss: 8.4.31
+      postcss: 8.4.35
       resolve: 1.22.8
       rollup: 2.78.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
 
-  /vite@4.4.11(@types/node@18.19.22):
+  /vite@4.4.11(@types/node@18.19.28):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -10163,7 +10157,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.19.22
+      '@types/node': 18.19.28
       esbuild: 0.18.20
       postcss: 8.4.35
       rollup: 3.29.4
@@ -10204,7 +10198,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.8
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.19.22
+      '@types/node': 18.19.28
       '@vitest/expect': 0.31.4
       '@vitest/runner': 0.31.4
       '@vitest/snapshot': 0.31.4
@@ -10224,8 +10218,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.5.0
-      vite: 4.4.11(@types/node@18.19.22)
-      vite-node: 0.31.4(@types/node@18.19.22)
+      vite: 4.4.11(@types/node@18.19.28)
+      vite-node: 0.31.4(@types/node@18.19.28)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -10315,7 +10309,7 @@ packages:
       espree: 9.6.1
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
