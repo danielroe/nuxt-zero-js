@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   zeroJs: {
     // Enable module in dev mode
     disabled: false,
-  }
+  },
 })

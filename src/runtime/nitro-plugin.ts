@@ -7,9 +7,9 @@ export default <NitroAppPlugin> function (nitroApp) {
   const $config = useRuntimeConfig()
   const ASSET_RE = new RegExp(`<script[^>]*src="${$config.app.buildAssetsDir}[^>]+><\\/script>`)
 
-  nitroApp.hooks.hook('render:html', htmlContext => {
+  nitroApp.hooks.hook('render:html', (htmlContext) => {
     htmlContext.bodyAppend = htmlContext.bodyAppend.filter(
-      b => !b.includes('window.__NUXT__') && !ASSET_RE.test(b)
+      b => !b.includes('window.__NUXT__') && !ASSET_RE.test(b),
     )
     const i = htmlContext.head.findIndex(i => i.includes('<link rel="modulepreload" as="script"'))
     if (i !== -1) {
