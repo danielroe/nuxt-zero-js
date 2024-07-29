@@ -61,7 +61,7 @@
     "@types/node": "18.19.39",
     "@vitest/coverage-c8": "0.31.4",
     "c8": "7.14.0",
-    "conventional-changelog-conventionalcommits": "5.0.0",
+    "conventional-changelog-conventionalcommits": "8.0.0",
     "eslint": "9.8.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.7",
