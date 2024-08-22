@@ -72,7 +72,7 @@
     "typescript": "5.4.5",
     "vitest": "0.31.4",
     "vue": "3.3.4",
-    "@nuxt/eslint-config": "0.3.13"
+    "@nuxt/eslint-config": "0.5.2"
   },
   "resolutions": {
     "nuxt-zero-js": "link:."
