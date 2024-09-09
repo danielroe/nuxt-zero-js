@@ -58,7 +58,7 @@
     "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.9-27703329.537338f",
     "@nuxt/test-utils": "3.4.2",
     "@release-it/conventional-changelog": "7.0.2",
-    "@types/node": "20.16.1",
+    "@types/node": "20.16.5",
     "@vitest/coverage-c8": "0.31.4",
     "c8": "7.14.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
