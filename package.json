@@ -58,21 +58,21 @@
     "@nuxt/schema": "npm:@nuxt/schema-edge@3.0.0-rc.9-27703329.537338f",
     "@nuxt/test-utils": "3.4.2",
     "@release-it/conventional-changelog": "8.0.2",
-    "@types/node": "20.16.1",
+    "@types/node": "20.16.5",
     "@vitest/coverage-c8": "0.31.4",
     "c8": "7.14.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "eslint": "9.11.0",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "lint-staged": "15.2.10",
     "nuxt": "npm:nuxt3@3.0.0-rc.9-27703329.537338f",
     "pinst": "3.0.0",
     "prettier": "3.3.3",
     "release-it": "17.6.0",
-    "typescript": "5.4.5",
+    "typescript": "5.6.2",
     "vitest": "0.31.4",
     "vue": "3.3.4",
-    "@nuxt/eslint-config": "0.5.6"
+    "@nuxt/eslint-config": "0.5.7"
   },
   "resolutions": {
     "nuxt-zero-js": "link:."
