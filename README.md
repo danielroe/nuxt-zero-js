@@ -55,7 +55,7 @@ Published under the [MIT License](./LICENCE).
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-zero-js?style=flat-square
 [npm-version-href]: https://npmjs.com/package/nuxt-zero-js
 [npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-zero-js?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-zero-js
+[npm-downloads-href]: https://npm.chart.dev/nuxt-zero-js
 [github-actions-src]: https://img.shields.io/github/workflow/status/danielroe/nuxt-zero-js/ci/main?style=flat-square
 [github-actions-href]: https://github.com/danielroe/nuxt-zero-js/actions?query=workflow%3Aci
 [codecov-src]: https://img.shields.io/codecov/c/gh/danielroe/nuxt-zero-js/main?style=flat-square
