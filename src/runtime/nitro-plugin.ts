@@ -15,5 +15,12 @@ export default <NitroAppPlugin> function (nitroApp) {
     if (i !== -1) {
       htmlContext.head[i] = htmlContext.head[i].replace(JS_HINT_RE, '')
     }
+
+    // clean up useHead artifacts
+    htmlContext.htmlAttrs = htmlContext.htmlAttrs.filter(a => !a.includes('data-head-attrs'))
+    htmlContext.bodyAttrs = htmlContext.bodyAttrs.filter(a => !a.includes('data-head-attrs'))
+    htmlContext.head = htmlContext.head
+      .map(k => k.replace(/<meta[^>]+name="head:count"[^>]+content="[^>]*"[^>]*>/g, ''))
+      .filter(Boolean)
   })
 }
