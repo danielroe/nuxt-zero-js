@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> This has been built into Nuxt since v3 - just use `features.noScripts`
+
+--
+
 # Nuxt Zero JS
 
 [![npm version][npm-version-src]][npm-version-href]
